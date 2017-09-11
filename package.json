@@ -1,0 +1,23 @@
+{
+  "name": "jira-update",
+  "version": "0.0.1",
+  "description": "Notifies the user of updates to his/her watched issues.",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "keywords": [
+    "jira",
+    "update",
+    "notifications",
+    "notify"
+  ],
+  "author": "Joseph Sutton",
+  "license": "MIT",
+  "dependencies": {
+    "jira": "^0.9.2",
+    "node-localdb": "0.0.3",
+    "node-notifier": "^5.1.2",
+    "opn": "^5.1.0"
+  }
+}
